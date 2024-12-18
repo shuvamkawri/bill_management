@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The INTERNET permission is required for development. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Permission to access the network state -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Permissions for accessing location services -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Permission for reading and writing to external storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- Permission for camera access -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Permission for reading contacts -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- Permission for using the microphone -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <!-- Permission for accessing the phone's state -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- Permissions for accessing Bluetooth (if applicable) -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <!-- Permission for accessing the WiFi state -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- Permission for accessing the camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Permissions for using GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+</manifest>
